@@ -1,34 +1,214 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Bruno Guimarães - Policies</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      padding: 40px;
-      max-width: 800px;
-      margin: auto;
-      color: #333;
-      background: #fafafa;
-    }
-    h1 { margin-bottom: 16px; }
-    ul { list-style: none; padding-left: 0; }
-    li { margin-bottom: 10px; }
-    a {
-      color: #0077ff;
-      text-decoration: none;
-      font-size: 18px;
-    }
-    a:hover { text-decoration: underline; }
-  </style>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Brunoguimaraes-dev</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-  <h1>Privacy Policies</h1>
-  <ul>
-    <li><a href="./scoreboard-lite/">Scoreboard Lite</a></li>
-    <li><a href="./modest-notes/">Modest Notes</a></li>
-  </ul>
+
+<header class="topbar">
+  <div class="container topbar-inner">
+    <div class="brand">Bruno Guimarães</div>
+    <nav class="topnav" aria-label="Main navigation">
+      <a href="#profile">Profile</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="https://github.com/brunobrlk" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/brunoguimaraesdev/" target="_blank">LinkedIn</a>
+      <a href="mailto:brunoguimaraes.dev@gmail.com">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<section id="profile" class="section container">
+  <div class="hero-card">
+    <div class="hero-left">
+      <h1>Bruno de Sousa Guimarães</h1>
+      <p class="muted subtitle">Professional Android Developer — Bahia, Brazil</p>
+      <div class="meta">
+        <span>Age: 24</span><span class="dot"> • </span>
+        <span>Portuguese (Native)</span><span class="dot"> • </span>
+        <span>English (B2–C1)</span>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="avatar">
+        <img src="assets/profile.png" alt="Bruno Guimarães">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="section container">
+  <h2>Skills</h2>
+  <div class="skills-grid">
+
+    <div class="skill-card">
+      <h3>Android & UI</h3>
+      <ul>
+        <li>Classic Views, ViewBinding, DataBinding</li>
+        <li>Jetpack(Navigation, DataStore, Room, Paging, WorkManager, SplashScreen)</li>
+        <li>App Components, Material Design 2 & 3, Multi-Language apps, Screen Sizes, API Versions</li>
+        <li>Coroutines, LiveData, Flows, Threads</li>
+      </ul>
+    </div>
+
+    <div class="skill-card">
+      <h3>Language & Architecture</h3>
+      <ul>
+        <li>Kotlin & Java</li>
+        <li>MVVM, Clean Architecture, Repository Pattern</li>
+        <li>Dagger Hilt, AppStartup, Lifecycle, ProcessLifecycle</li>
+        <li>Retrofit(Gson, Interceptors, ServiceBuilder)</li>
+      </ul>
+    </div>
+
+    <div class="skill-card">
+      <h3>Quality & CI/CD</h3>
+      <ul>
+        <li>JUnit, Espresso, Robolectric, Debugging, Timber, LeakCanary</li>
+        <li>GitHub Actions, Jenkins, CircleCI, Bitrise</li>
+        <li>Play Store, Amazon AppStore, Huawei, Aptoide, APK Pure, Uptodown</li>
+        <li>Firebase(Analytics, Crashlytics, RemoteConfig, Messaging, Auth, Firestore, Performance)</li>
+      </ul>
+    </div>
+
+    <div class="skill-card">
+      <h3>Supporting Tech</h3>
+      <ul>
+        <li>Linux, Bash, Shell Script, Docker, VirtualMachines/kvm</li>
+        <li>Git, REST, JSON, SQL, SQLite, Dbeaver, Postman/Insomnia</li>
+        <li>Gradle, Groovy, C, Python, Flask, Dart & Flutter</li>
+        <li>AdMob, GPP, Lottie, Scrum</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<section id="experience" class="section container">
+  <h2>Experience</h2>
+  <div class="exp-list">
+
+    <article class="exp-item">
+      <div class="exp-logo"><img src="assets/icons/maxima.jpg" alt="Máxima Tech"></div>
+      <div class="exp-body">
+        <h3>Máxima Tech</h3>
+        <p class="exp-role subtitle">Mid-level Android Developer — Java/Kotlin</p>
+        <p class="exp-time muted">1 year 2 months</p>
+      </div>
+    </article>
+
+    <article class="exp-item">
+      <div class="exp-logo"><img src="assets/icons/dantas.jpeg" alt="Dantas"></div>
+      <div class="exp-body">
+        <h3>Dantas</h3>
+        <p class="exp-role subtitle">Junior Android Developer — Java/Kotlin</p>
+        <p class="exp-time muted">6 months</p>
+      </div>
+    </article>
+
+    <article class="exp-item">
+      <div class="exp-logo"><img src="assets/icons/ifba.png" alt="Internship"></div>
+      <div class="exp-body">
+        <h3>Internship</h3>
+        <p class="exp-role subtitle">Flutter Developer</p>
+        <p class="exp-time muted">3 months</p>
+      </div>
+    </article>
+
+    <article class="exp-item">
+      <div class="exp-logo"><img src="assets/icons/robotics.png" alt="Robotics"></div>
+      <div class="exp-body">
+        <h3>Robotics (Lego)</h3>
+        <p class="exp-role subtitle">Extracurricular</p>
+        <p class="exp-time muted">6 months</p>
+      </div>
+    </article>
+
+    <article class="exp-item">
+      <div class="exp-logo"><img src="assets/icons/ifba.png" alt="Teaching"></div>
+      <div class="exp-body">
+        <h3>Teaching</h3>
+        <p class="exp-role subtitle">Data Structures (C)</p>
+        <p class="exp-time muted">5 months</p>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<section id="portfolio" class="section container">
+  <h2>Portfolio</h2>
+
+  <div class="portfolio-grid">
+
+    <article class="project-card">
+      <div class="project-header">
+        <div class="project-icon"><img src="assets/icons/scoreboard.png" alt="Scoreboard Lite"></div>
+        <div class="project-info">
+          <h3>Scoreboard Lite</h3>
+          <p class="subtitle">Lightweight scoreboard for matches.</p>
+          <span class="tech muted">Kotlin + MVVM, Material3, Data Binding, Live Data, Datastore, Coroutines, DaggerHilt, Firebase(Analytics, Crashlytics, RemoteConfig, Performance), AdMob, Navigation UI, local tests - JUnit, instrumented tests - Espresso and CI/CD with CircleCI + Gradle Play Plugin(GPP), Github Actions and Jenkins</span>
+        </div>
+        <a class="project-github" href="#"><img src="assets/icons/github.svg" alt="GitHub"/> Source Code</a>
+      </div>
+
+      <div class="store-row">
+        <a href="https://play.google.com/store/apps/details?id=com.example" target="_blank">
+          <img src="assets/icons/play-store.png" alt="Play Store"/> Google Play
+        </a>
+      </div>
+
+      <div class="store-row">
+        <a href="https://www.amazon.com/gp/mas/dl/android?p=com.example" target="_blank">
+          <img src="assets/icons/amazon.png" alt="Amazon AppStore"/> Amazon AppStore
+        </a>
+      </div>
+
+      <div class="store-row">
+        <a href="https://appgallery.huawei.com/#/app/Cxxxx" target="_blank">
+          <img src="assets/icons/huawei.png" alt="Huawei Store"/> Huawei
+        </a>
+      </div>
+    </article>
+
+    <article class="project-card">
+      <div class="project-header">
+        <div class="project-icon"><img src="assets/icons/nba.png" alt="NBA App"></div>
+        <div class="project-info">
+          <h3>NBA App</h3>
+          <p class="subtitle">API practice + architecture study.</p>
+          <span class="tech muted">Kotlin • LiveData • Hilt • Firebase</span>
+        </div>
+        <a class="project-github" href="#"><img src="assets/icons/github.svg" alt="GitHub"/> Source Code</a>
+      </div>
+    </article>
+
+  </div>
+</section>
+</main>
+
+        <footer class="site-footer">
+  <h2>Contact Me</h2>
+  <div class="footer-social">
+    <a href="https://www.linkedin.com/in/brunoguimaraesdev/" target="_blank">
+      <i class="fab fa-linkedin"></i> LinkedIn
+    </a>
+    <a href="https://github.com/brunobrlk" target="_blank">
+      <i class="fab fa-github"></i> GitHub
+    </a>
+    <a href="mailto:brunoguimaraes.dev@gmail.com">
+      <i class="fas fa-envelope"></i> Email
+    </a>
+  </div>
+  <small class="footer-note">© 2025 Bruno Guimarães — Privacy pages coming soon.</small>
+</footer>
 </body>
 </html>
